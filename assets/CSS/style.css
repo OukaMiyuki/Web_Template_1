@@ -1,0 +1,39 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*  */
+/*  */
+/*  */
+/* Global Classes */
+
+a {
+    text-decoration: none;
+}
+
+/* Global Classes */
+/*  */
+/*  */
+/*  */
+/* Navbar Section */
+
+/* Nav section */
+.nav {
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 40vh;
+    overflow: hidden;
+}
+
+/* Nav brand link*/
+.nav .nav-brand a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+/* Navbar End Section */
+/*  */
+/*  */
+/*  */
