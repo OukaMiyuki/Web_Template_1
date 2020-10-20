@@ -1,21 +1,68 @@
+@import url('fonts.css');
 html, body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
+:root{
+    /* theme font family */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+
+    /* color theme */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --cloud: #a1c4cf;
+
+    /* gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
 /*  */
 /*  */
 /*  */
+/* -------------------------------------------------------------------- */
 /* Global Classes */
 
 a {
     text-decoration: none;
+    color: var(--text-gray);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Flex row menu */
+/* Basically horizontally view the navbar */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* Global Classes */
+/* -------------------------------------------------------------------- */
 /*  */
 /*  */
 /*  */
+/* -------------------------------------------------------------------- */
+/* Media queries */
+
+/* gonna be added in the next commit */
+
+/* Media queries */
+/* -------------------------------------------------------------------- */
+/*  */
+/*  */
+/*  */
+/* -------------------------------------------------------------------- */
 /* Navbar Section */
 
 /* Nav section */
@@ -27,13 +74,61 @@ a {
     overflow: hidden;
 }
 
+.nav .nav-menu {
+    justify-content: space-between; /* this will create space between the items with the same width around them */
+
+}
+
 /* Nav brand link*/
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
+    display: block; /* will display the items inline with the block */
+    font-family: var(--Lexend);
+    font-size: 1.6rem;
+}
+
+/* Nav items (The whole ul) */
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+/* Nav link (li) */
+/* This will basically styling the space between the list items of the nav menu */
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem; /* clockwise dirrection in case you're forget */
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+/* Hover menu for nav-link li */
+.nav .nav-items .nav-link:hover {
+    background-color: var(--midnight);
+}
+
+/* Hover menu for nav link a */
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+/* Nav social part */
+.nav .social {
+    padding: 1.4rem 0;
+}
+
+.nav .social i {
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover {
+    color: var(--cloud);
 }
 
 /* Navbar End Section */
+/* -------------------------------------------------------------------- */
 /*  */
 /*  */
 /*  */

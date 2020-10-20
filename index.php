@@ -12,6 +12,7 @@
         <meta name="description" content="description here">
         <meta name="keywords" content="keywords,here">
         <link rel="stylesheet" href="./assets/CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
     <body>
 
@@ -42,10 +43,10 @@
                     </ul>
                 </div>
                 <div class="social text-gray">
-                    <a href="">F</a>
-                    <a href="">I</a>
-                    <a href="">T</a>
-                    <a href="">Y</a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-youtube-square"></i></a>
                 </div>
             </div>
         </nav>
