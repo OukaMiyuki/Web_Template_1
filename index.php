@@ -23,7 +23,13 @@
                 <div class="nav-brand">
                     <a href="" class="text-gray">Wordpress 1</a>
                 </div>
+                <div class="toggle-collapse">
+                    <div class="toggle-icons">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
                 <div>
+                    <!-- Menu -->
                     <ul class="nav-items">
                         <li class="nav-link">
                             <a href="">Home</a>
@@ -41,6 +47,7 @@
                             <a href="">Contact Us</a>
                         </li>
                     </ul>
+                    <!-- Menu -->
                 </div>
                 <div class="social text-gray">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -52,7 +59,7 @@
         </nav>
 
         <!-- End Nav Part -->
-    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="./assets/JS/main.js"></script>
     </body>
 </html>
